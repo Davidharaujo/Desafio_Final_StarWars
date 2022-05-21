@@ -1,0 +1,128 @@
+/* TOPO DA HEADER*/
+
+.principal {
+    border: solid red;
+    position: absolute;
+    width: 100%;
+    background: transparent url('/assets/img/star\ uó\ topo.png') 0% 0% no-repeat padding-box;
+    background-size: contain;
+    opacity: 1;
+}
+
+.figures {
+    border: solid red;
+    display: flex;
+}
+.titulo {
+    border: solid white;
+    display: flex;
+    height: 55vh;
+    align-items: flex-end;
+}
+
+.titulo1, .titulo2 {  
+    border: solid red;
+    position: absolute;
+    z-index: 1;
+    width: 20%;
+    transform: translate(0, -55%);
+}
+
+.titulo1 {
+    left: 30%;
+    transform: translate(-30%, 0);
+}
+
+.titulo2 {
+    width: 23%;
+    left: 85%;
+    transform: translate(-85%, 0);
+}
+
+.imagem__topo {
+    border: solid red;
+    position:absolute;
+    transform: translate(15%,0);
+    width: 70%;
+    z-index: 2;
+}
+
+.quadros {
+    border: solid red;
+    position: absolute;
+}
+
+/* QUADRO DE APRESENTAÇÃO */ 
+
+.robot {
+    border: solid red;
+    position: absolute;
+    top: 79vh;
+}
+
+.storm__trupper {
+    border: solid red;
+    position: absolute;
+    z-index: 2;
+    top: 75vh;
+    left: 15vw;
+    width: 20%;
+}
+.figures div h2 {
+    position: absolute;
+    z-index: 3;
+    top: 83vh;
+    left: 21vw;
+    color: white;
+    font-weight: 500;
+    width: 9%;
+    font-size: 28px;
+}
+
+.figures div p {
+    width: 17%;
+    color: white;
+}
+
+.chamada {
+    position: absolute;
+    z-index: 3;
+    top: 100vh;
+    left: 16.3vw;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 13px;
+    opacity: .8;
+}
+
+.test__update {
+    font-size: 8px;
+    position: absolute;
+    z-index: 3;
+    left: 27vw;
+    top: 122vh;
+    font-weight: lighter;
+    opacity: .8;
+}
+
+.download {
+    position: absolute;
+    z-index: 3;
+    left: 20.5vw;
+    top: 115vh;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.download:hover {
+    box-shadow: inset 0 0 1em white, 0 0 1em white;
+}
+
+.download a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
